@@ -30,7 +30,7 @@ public class Person extends BaseEntity {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Integer id,String name) {
         this.id = id;
     }
 
@@ -38,7 +38,7 @@ public class Person extends BaseEntity {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name,Integer id) {
         this.name = name;
     }
 }
