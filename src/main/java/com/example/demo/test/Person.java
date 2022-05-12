@@ -22,7 +22,7 @@ public class Person extends BaseEntity {
         return email;
     }
 
-    public void setEmail(String email) {
+    public void setEmail(String email,String lastname) {
         this.email = email;
     }
 
